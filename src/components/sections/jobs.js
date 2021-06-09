@@ -8,10 +8,11 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
-
   .inner {
     display: flex;
+    margin: 0 auto;
+
+    max-width: 900px;
 
     @media (max-width: 600px) {
       display: block;
@@ -179,6 +180,7 @@ const Jobs = () => {
               location
               range
               url
+              department
             }
             html
           }
@@ -273,8 +275,18 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, range, department } = frontmatter;
 
+              const companyLabel = `@ ${company}`;
+              const CompanyElement = () => {
+                if (url) {
+                  return (<a href={url} className="inline-link company">
+                    {companyLabel}
+                  </a>);
+                } else {
+                  return (<span className="inline-link company">{companyLabel}</span>);
+                }
+              };
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
                   <StyledTabPanel
@@ -285,13 +297,19 @@ const Jobs = () => {
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}>
                     <h3>
-                      <span>{title}</span>
-                      <span className="company">
-                        &nbsp;@&nbsp;
-                        <a href={url} className="inline-link">
-                          {company}
-                        </a>
-                      </span>
+                      <div>
+                        {title}{' '}
+                        {
+                          !department && <CompanyElement/>
+                        }
+                      </div>
+                      {
+                        department && <div>
+                          {department}{' '}
+                          <CompanyElement/>
+                        </div>
+                      }
+                      
                     </h3>
 
                     <p className="range">{range}</p>

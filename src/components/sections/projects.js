@@ -236,7 +236,9 @@ const Projects = () => {
           </div>
 
           <h3 className="project-title">
-            <a href={external}>{title}</a>
+            {
+              external ? <a href={external}>{title}</a> : title
+            }
           </h3>
 
           <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />
@@ -294,9 +296,13 @@ const Projects = () => {
         )}
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+      {
+        projects.length > GRID_LIMIT && 
+        <button className="more-button" onClick={() => setShowMore(!showMore)}>
+          Show {showMore ? 'Less' : 'More'}
+        </button>
+      }
+      
     </StyledProjectsSection>
   );
 };

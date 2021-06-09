@@ -24,10 +24,10 @@ const GlobalStyle = createGlobalStyle`
     color: var(--lightest-slate);
   }
 
-  :focus {
-    outline: 2px dashed var(--green);
-    outline-offset: 3px;
-  }
+  // :focus {
+  //   outline: 2px dashed var(--green);
+  //   outline-offset: 3px;
+  // }
 
   /* Scrollbar Styles */
   html {

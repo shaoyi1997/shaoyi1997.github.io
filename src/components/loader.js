@@ -19,7 +19,7 @@ const StyledLoader = styled.div`
 
   .logo-wrapper {
     width: max-content;
-    max-width: 100px;
+    max-width: 300px;
     transition: var(--transition);
     opacity: ${props => (props.isMounted ? 1 : 0)};
     svg {
@@ -29,7 +29,7 @@ const StyledLoader = styled.div`
       margin: 0 auto;
       fill: none;
       user-select: none;
-      #B {
+      #yi, #shao {
         opacity: 0;
       }
     }
@@ -46,29 +46,30 @@ const Loader = ({ finishLoading }) => {
 
     loader
       .add({
-        targets: '#logo path',
-        delay: 150,
-        duration: 750,
+        targets: '#shao',
+        delay: 120,
+        duration: 900,
         easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
+        opacity: 1,
       })
       .add({
-        targets: '#logo #B',
-        duration: 350,
+        targets: '#yi',
+        delay: 60,
+        duration: 1200,
         easing: 'easeInOutQuart',
         opacity: 1,
       })
       .add({
         targets: '#logo',
-        delay: 250,
-        duration: 150,
+        delay: 375,
+        duration: 225,
         easing: 'easeInOutQuart',
         opacity: 0,
         scale: 0.1,
       })
       .add({
         targets: '.loader',
-        duration: 100,
+        duration: 150,
         easing: 'easeInOutQuart',
         opacity: 0,
         zIndex: -1,

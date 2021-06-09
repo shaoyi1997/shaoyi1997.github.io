@@ -246,7 +246,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      // background-color: var(--green);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -273,21 +273,21 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
+        // background-color: var(--navy);
         mix-blend-mode: screen;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      // mix-blend-mode: multiply;
+      // filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(80%);
+        // filter: grayscale(100%) contrast(1) brightness(80%);
       }
     }
   }
@@ -337,7 +337,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        What I’ve Built
       </h2>
 
       <StyledProjectsGrid>
@@ -387,7 +387,7 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
+                    <GatsbyImage image={image} alt={title} className="img" maxHeight={200} />
                   </a>
                 </div>
               </StyledProject>

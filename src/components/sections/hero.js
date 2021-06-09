@@ -36,7 +36,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 530px;
   }
 
   .email-link {
@@ -60,22 +60,21 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Hong Shao Yi.</h2>;
-  const three = <h3 className="big-heading">I love building things.</h3>;
-  const four = (
-    <p>
-      I'm a Boston-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
-      <a href="https://upstatement.com/">Upstatement</a> focused on building accessible,
-      human-centered products.
-    </p>
-  );
+  const three = <h3 className="big-heading">I love to hear all crazy ideas.</h3>;
+  // const four = (
+  //   <p>
+  //     I'm a software engineer in Singapore, striving to develop products that blow your mind.
+  //     Currently, I am a final year student in the <a href="vhttps://www.nus.edu.sg/">National University of Singapore</a>,{' '}
+  //     majoring in Computer Science.
+  //   </p>
+  // );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
       Get In Touch
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, five];
 
   return (
     <StyledHeroSection>

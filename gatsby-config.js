@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Hong Shao Yi',
+    title: 'Shao Yi',
     description:
-      'Hong Shao Yi is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Hong Shao Yi is a software engineer in Singapore, striving to develop products that blow your mind.',
     siteUrl: 'https://hongshaoyi.me', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: 'Hong Shao Yi',
@@ -26,7 +26,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/favicon.png',
       },
     },
     `gatsby-plugin-offline`,
