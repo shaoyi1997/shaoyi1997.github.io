@@ -27,19 +27,19 @@ const headingLine = css`
 
 const StyledJobsSection = styled.section`
   padding-top: 0px;
-  margin-top: -120px;
+  margin-top: -80px;
 
   h2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 100px; 
+    padding-right: 100px;
     margin-bottom: 40px;
     white-space: nowrap;
 
     @media (max-width: 768px) {
-      padding-right: 0px; 
+      padding-right: 0px;
     }
 
     @media (max-width: 600px) {
@@ -54,8 +54,6 @@ const StyledJobsSection = styled.section`
         ${headingLine}
       }
     }
-
-    
   }
 
   .inner {
@@ -75,12 +73,11 @@ const StyledJobsSection = styled.section`
   }
 
   @media (max-width: 768px) {
-    margin-top: -80px;
+    margin-top: 0px;
     margin-bottom: 80px;
   }
 
   @media (max-width: 480px) {
-    margin-top: -60px;
     margin-bottom: 60px;
   }
 `;
@@ -300,7 +297,6 @@ const CCA = () => {
       <h2>What I’ve Done</h2>
 
       <div className="inner">
-
         <StyledTabPanels>
           {jobsData &&
             jobsData.map(({ node }, i) => {
