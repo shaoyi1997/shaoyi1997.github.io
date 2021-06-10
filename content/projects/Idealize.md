@@ -13,4 +13,4 @@ company: ''
 showInProjects: true
 ---
 
-Idealize is a hub to bridge problem statements to problem solvers. We are often struck with fleeting moments when we realize certain problems in in the world have yet to be solved, or when certain ideas of yours have not been implemented. Idealize aims to turn these problems and ideas into a tangible goal, by bridging ideas and collaborators together.
+Idealize is a hub that aims to bridge problem statements to problem solvers. We are often struck with fleeting moments when we realize certain problems in the world have yet to be solved, or when certain ideas of ours have not been implemented in the world. Idealize aims to turn these problems and ideas into a tangible goal, by bridging ideas and collaborators together.
