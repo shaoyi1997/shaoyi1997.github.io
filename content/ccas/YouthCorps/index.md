@@ -1,6 +1,7 @@
 ---
+title: 'Youth Corps Singapore'
 date: '2018-04-01'
-company: 'Youth Corps Singapore'
+company: 'YCS'
 location: 'Singapore'
 ---
 
