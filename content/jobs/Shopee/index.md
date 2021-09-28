@@ -1,11 +1,11 @@
 ---
-date: 'Present'
+date: '2021-08-31'
 title: 'Backend Engineer Intern'
 department: 'Common Shared Services'
 company: 'Shopee'
 location: 'Singapore'
-range: 'May 2021 - Present'
+range: 'May 2021 - Aug 2021'
 url: 'https://www.shopee.com/'
 ---
 
-- Building a static analysis & data visualisation tool to detect dependencies amongst microservices, middlewares and software-defined infrastructure
+- Built a static analysis & data visualisation tool to detect and visualize dependencies amongst microservices, middlewares and software-defined infrastructure from code
