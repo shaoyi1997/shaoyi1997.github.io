@@ -123,7 +123,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['SvelteKit', 'Next.js', 'Kubernetes', 'Elasticsearch', 'Distributed Systems'];
+  const skills = [
+    'Kubernetes',
+    'Thanos',
+    'Redis',
+    'CockroachDB',
+    'Distributed Databases',
+    'Distributed Systems',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -133,9 +140,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a software engineer in Singapore, striving to develop products that blow your mind.
-              Currently, I am a final year student in the <a href="vhttps://www.nus.edu.sg/">National University of Singapore</a>,{' '}
-              majoring in Computer Science and specializing in Software Engineering &amp; Information Security.
+              I'm a software engineer in Singapore, striving to develop products that blow your
+              mind.
             </p>
 
             <p>Here are a few topics I've been working with recently:</p>

@@ -213,6 +213,12 @@ const StyledTabPanel = styled.div`
       color: var(--green);
     }
   }
+
+  .cca-body {
+    a {
+      ${({ theme }) => theme.mixins.inlineLink};
+    }
+  }
 `;
 
 const CCA = () => {
@@ -314,7 +320,7 @@ const CCA = () => {
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}>
                     <h3>{title}</h3>
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
+                    <div dangerouslySetInnerHTML={{ __html: html }} className="cca-body" />
                   </StyledTabPanel>
                 </CSSTransition>
               );

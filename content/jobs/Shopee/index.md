@@ -4,7 +4,7 @@ title: 'Backend Engineer Intern'
 department: 'Common Shared Services'
 company: 'Shopee'
 location: 'Singapore'
-range: 'May 2021 - Aug 2021'
+range: 'May 2021 - August 2021'
 url: 'https://www.shopee.com/'
 ---
 
