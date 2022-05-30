@@ -1,7 +1,8 @@
 ---
 date: '2020-12-01'
 title: 'Software Engineer'
-company: 'NUS'
+shortCompany: 'NUS'
+company: 'National University of Singapore'
 location: 'Singapore'
 range: 'August 2020 - December 2020'
 url: 'https://www.nus.edu.sg/'

@@ -6,6 +6,8 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
+  padding-top: 0;
+
   .inner {
     max-width: 900px;
     margin: 0 auto;

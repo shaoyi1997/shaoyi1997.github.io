@@ -26,8 +26,9 @@ const headingLine = css`
 `;
 
 const StyledJobsSection = styled.section`
-  padding-top: 0px;
-  margin-top: -80px;
+  /* padding-top: 0px;
+  padding-bottom: 200px; */
+  /* margin-top: -80px; */
 
   h2 {
     display: flex;
@@ -300,7 +301,7 @@ const CCA = () => {
   };
 
   return (
-    <StyledJobsSection id="jobs" ref={revealContainer}>
+    <StyledJobsSection id="ccas" ref={revealContainer}>
       <h2>What I’ve Done</h2>
 
       <div className="inner">

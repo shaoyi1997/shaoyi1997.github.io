@@ -1,14 +1,15 @@
 ---
 date: '2022-05-31'
 title: 'Teaching Assistant'
-company: 'NUS'
+shortCompany: 'NUS'
+company: 'National University of Singapore'
 location: 'Singapore'
 range: 'August 2020 - May 2022'
 url: 'https://www.nus.edu.sg/'
 ---
 
 - Organiser for Design Your Own Module - Distributed Systems (following [MIT 6.824 Distributed Systems](https://pdos.csail.mit.edu/6.824/index.html))
-- Currently teaching, facilitating and evaluating assignments & tutorials for:
+- Taught, facilitated and evaluated assignments & tutorials for:
   - CS2103T Software Engineering
   - CS4218 Software Testing
   - IT5007 Software Engineering on Application Architecture

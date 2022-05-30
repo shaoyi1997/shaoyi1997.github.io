@@ -2,6 +2,7 @@
 date: 'Present'
 title: 'Software and Product Lead'
 company: 'Out Of The Box Education'
+shortCompany: 'OOTB'
 location: 'Singapore'
 range: 'December 2021 - Current'
 url: 'https://preschool.education/'

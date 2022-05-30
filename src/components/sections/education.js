@@ -7,7 +7,7 @@ import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
-const StyledJobsSection = styled.section`
+const StyledEducationSection = styled.section`
   .inner {
     display: flex;
     margin: 0 auto;
@@ -165,11 +165,11 @@ const StyledTabPanel = styled.div`
   }
 `;
 
-const Jobs = () => {
+const Education = () => {
   const data = useStaticQuery(graphql`
     query {
       jobs: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/jobs/" } }
+        filter: { fileAbsolutePath: { regex: "/education/" } }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
@@ -246,8 +246,8 @@ const Jobs = () => {
   };
 
   return (
-    <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
+    <StyledEducationSection id="education" ref={revealContainer}>
+      <h2 className="numbered-heading">Where I’ve Studied</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
@@ -319,8 +319,8 @@ const Jobs = () => {
             })}
         </StyledTabPanels>
       </div>
-    </StyledJobsSection>
+    </StyledEducationSection>
   );
 };
 
-export default Jobs;
+export default Education;
