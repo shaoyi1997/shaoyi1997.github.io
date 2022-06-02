@@ -14,4 +14,4 @@ url: 'https://www.nus.edu.sg/'
   - CS4218 Software Testing
   - IT5007 Software Engineering on Application Architecture
   - CS3219 Software Engineering Principles and Patterns
-    - Played a part in incorporating Domain Driven Design in CS3219’s curriculum, designing weekly tutorials and mentoring microservices-based final projects
+    - Played a part in mentoring microservices-based final projects with emphasis on ensuring consistency, scalability and concurrency of the distributed system, designing weekly tutorials, and incorporating Domain Driven Design in CS3219’s curriculum
