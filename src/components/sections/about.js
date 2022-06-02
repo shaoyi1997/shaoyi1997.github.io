@@ -127,10 +127,8 @@ const About = () => {
 
   const skills = [
     'Kubernetes',
-    'Thanos',
-    'Redis',
-    'CockroachDB',
-    'Distributed Databases',
+    'Distributed Data Storage',
+    'Low Latency Systems',
     'Distributed Systems',
   ];
 
