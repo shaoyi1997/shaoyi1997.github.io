@@ -7,7 +7,7 @@ range: 'May 2020 - July 2020'
 url: 'https://glints.com/'
 ---
 
-- Developed mobile-responsive frontend features in the candidate-facing job portal site, notably:
+- Developed mobile-responsive frontend features in an agile environment for the Glints job portal site, notably:
   - Revamp of user onboarding flow which increased profile completion by 1.4x
   - Revamp of Glints VIP landing page which realised to 2x more VIP applications
 - Independently implemented the localisation & translation of the Employers site to the Taiwan domain, thereby opening up Glints the Taiwan Marketplace

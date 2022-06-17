@@ -8,4 +8,4 @@ range: 'May 2021 - August 2021'
 url: 'https://www.shopee.com/'
 ---
 
-- Built a static analysis & data visualisation tool to detect and visualize dependencies amongst microservices, middlewares and software-defined infrastructure from code
+- Built a static analysis & data visualisation tool to detect and visualize dependencies amongst microservices, middlewares, and software-defined infrastructure from code

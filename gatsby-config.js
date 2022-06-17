@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Shao Yi',
     description:
-      'Hong Shao Yi is a software engineer in Singapore, striving to develop products that blow your mind.',
+      'Hong Shao Yi is a full-stack engineer based in Singapore, striving to develop products and infrastructure that blow your mind.',
     siteUrl: 'https://hongshaoyi.me', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: 'Hong Shao Yi',
