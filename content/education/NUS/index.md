@@ -10,7 +10,7 @@ url: 'https://www.comp.nus.edu.sg/programmes/ug/cs/curr/'
 
 - Achieved Highest Distinction (CAP: 4.69 / 5)
 - With distinction in Software Engineering and Parallel Computing focus areas
-- Undertook dissertation on performance evaluation of parallel workloads on modern virtualization technologies in single node and cluster environments
+- Undertook dissertation on performance evaluation of parallel workloads on modern virtualization technologies in single node and cluster Linux environments
 - Notable modules taken:
   - CS2103T Software Engineering (A)
   - CS3211 Parallel and Concurrent Programming (A)
