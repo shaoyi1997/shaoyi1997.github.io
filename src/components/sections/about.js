@@ -140,11 +140,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a software engineer in Singapore, striving to develop products that blow your
-              mind.
+              I'm a full-stack software engineer based in Singapore, looking to develop platforms
+              and systems that blow your mind. My interests lie in building distributed systems and
+              low-level programming because the challenges behind them never fail to let me down.
             </p>
 
-            <p>Here are a few topics I've been working with recently:</p>
+            <p>Here are a few topics that I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

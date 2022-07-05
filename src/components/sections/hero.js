@@ -59,8 +59,8 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Hong Shao Yi.</h2>;
-  const three = <h3 className="big-heading">I love to hear all crazy ideas.</h3>;
+  const two = <h2 className="big-heading">Shao Yi</h2>;
+  const three = <h3 className="medium-heading">Challenges are my bread and butter</h3>;
   // const four = (
   //   <p>
   //     I'm a software engineer in Singapore, striving to develop products that blow your mind.
